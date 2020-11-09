@@ -1,0 +1,28 @@
+// Poner estilos globales y cambiar valores de variables 
+// Fuentes
+@import url('https://fonts.googleapis.com/css?family-LATO:400,700|Nunito:400,700');
+$turquoise: #44ddd0;
+$green: #27d7a1;
+$light-green: #45f69e;
+$dark-green: rgb(0,
+100,
+80);
+$light: #f7f1f1;
+// Sobreescribir variables globales de Bulma
+$family-sans-serif: "Nunito",
+sans-serif;
+$primary: $green;
+$link: $light-green;
+// Sobreescribir algunas variables de componentes de Bulma
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+// Estilos globales
+html {
+    background: linear-gradient(to right top, $turquoise, $green);
+}
+
+html,
+body {
+    height: 100%;
+}
